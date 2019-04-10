@@ -1,0 +1,92 @@
+.dg {
+  display: grid;
+}
+
+.gr--cols {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+
+.rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+.VT323 {
+  font-family: 'VT323', monospace;
+}
+
+.min-100vh {
+  min-height: 100vh;
+}
+
+.min-75vh {
+  min-height: 75vh;
+}
+
+/* COLOURS */
+
+.soft-purple {
+  color: #D5A9E5;
+}
+
+.hover-soft-purple:hover, .hover-soft-purple:focus {
+  color: #D5A9E5;
+}
+
+.bg-soft-purple {
+  background-color: #D5A9E5;
+}
+
+.burgundy {
+  color: #720030;
+}
+
+.hover-burgundy {
+  color: #720030;
+}
+
+.peach {
+  color: #f9704b;
+}
+
+.bg-peach {
+background-color: #f9704b;
+}
+
+.hover-peach:hover, .hover-peach:focus {
+  color: #f9704b;
+}
+
+.hover-bg-peach:hover, .hover-bg-peach:focus {
+  background-color: #f9704b;
+}
+
+.b--peach {
+  border-color: #f9704b;
+}
+
+.bg-repeat {
+  background-repeat: repeat;
+}
+
+
+.element-invisible {
+  position: absolute;
+  left: -5000px;
+  top: -5000px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.vh-40 {
+height: 40vh;
+}
+
+.w-vh-40 {
+  width: 40vh;
+}
+
+.img-cover {
+  object-fit:cover;
+}
