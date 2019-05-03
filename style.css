@@ -100,5 +100,5 @@ height: 40vh;
 }
 
 .animation-bg {
-  transform: rotate3d(1, 1, 1, 45deg);
+  transform: rotateX(45deg) rotateY(15deg) rotateZ(25deg);
 }
